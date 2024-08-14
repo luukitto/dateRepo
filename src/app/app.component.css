@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.no-button {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.emoji {
+  font-size: 50px;
+  margin-top: 20px;
+}
