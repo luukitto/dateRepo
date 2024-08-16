@@ -74,6 +74,8 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
+            "outputPath": "dist/dateRepo",
+            "baseHref": "/dateRepo/",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
